@@ -1,0 +1,19 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# phase execution outputs
+phases/**/phase*-output.json
+phases/**/step*-output.json
+
+# python
+__pycache__/
+
+# env
+.env*
+!.env.example
+
+# test
+coverage/
